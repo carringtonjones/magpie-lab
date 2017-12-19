@@ -23,9 +23,9 @@ public class StringExplorer
         //  Try other methods here:
         int notFoundPsn = sample.indexOf("slow");
         System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
-
-
-
+        
+        int secondParam = sample.indexOf("The", 3);
+        System.out.println("sample.indexOf(\"slow\") = " + secondParam);
     }
 
 }
