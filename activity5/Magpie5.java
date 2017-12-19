@@ -249,8 +249,6 @@ public class Magpie5
 		return findKeyword (statement, goal, 0);
 	}
 	
-
-
 	/**
 	 * Pick a default response to use if nothing else fits.
 	 * @return a non-committal string
@@ -264,7 +262,12 @@ public class Magpie5
 	private String [] randomResponses = {"Interesting, tell me more",
 			"Hmmm.",
 			"Do you really think so?",
-			"You don't say."
+			"You don't say.",
+			"That's awesome.",
+			"That's crazy.",
+			"Cool Story Bro, Tell me more.",
+			"Who cares?",
+				
 	};
 	
 }
